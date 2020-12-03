@@ -1,0 +1,55 @@
+{
+  "name": "react-daisycon-pixel",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/cjs/cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build-cjs && npm run build-web",
+    "build-cjs": "babel --out-dir ./build/cjs ./src",
+    "build-web": "webpack --mode=production",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boelensman1/react-daisycon-pixel.git"
+  },
+  "keywords": [
+    "react",
+    "daiscon",
+    "pixel"
+  ],
+  "author": "Wigger Boelens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boelensman1/react-daisycon/issues"
+  },
+  "homepage": "https://github.com/Boelensman1/react-daisycon#readme",
+  "peerDependencies": {
+    "react": ">= 16.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "query-string": "^6.13.7"
+  }
+}
