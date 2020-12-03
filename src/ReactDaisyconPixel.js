@@ -59,7 +59,7 @@ const DaisyconConversionPixel = ({
     c: countryCode,
     z: zipCode,
     g: gender,
-    b: birthDate,
+    b: birthDate, // = birth year
     sku: stockKeepingUnit,
     qty: quantity,
     ...extrasAsObject,
