@@ -50,7 +50,7 @@ $ npm install react-daisycon-pixel
 | countryCode               | c               |
 | zipCode                   | z               |
 | gender                    | g               |
-| birthDate, // = birth yea | b               |
+| birthDate                 | b               |
 | stockKeepingUnit          | sku             |
 | quantity                  | qty             |
 | extras (as array)         | e1-e5           |
